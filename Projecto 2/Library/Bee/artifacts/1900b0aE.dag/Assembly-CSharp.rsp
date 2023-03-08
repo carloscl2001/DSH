@@ -356,6 +356,11 @@
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleCollision.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/Old Sea Port/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/Scripts/disparos.cs"
+"Assets/Scripts/gestorVidas.cs"
+"Assets/Scripts/movimientoBala.cs"
+"Assets/Scripts/moviminetoEnemigo.cs"
+"Assets/Scripts/tratamientoImpacto.cs"
 -langversion:9.0
 
 /deterministic
