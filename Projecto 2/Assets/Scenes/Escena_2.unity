@@ -60539,7 +60539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2cf7bf95be57d438c99df110d9c6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bala: {fileID: 623294336268936142, guid: b6b197da529a8bd4a9999c69bb937c74, type: 3}
+  bala: {fileID: 6975986683001840151, guid: 0b4c2f3f441c60547bc4c90afe0e40b6, type: 3}
 --- !u!1001 &1469585708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82340,8 +82340,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0714722, y: 1.3511658, z: 4.2433167}
-  m_Center: {x: -0.055511475, y: 0.17558289, z: 1.5457764}
+  m_Size: {x: 1.4083252, y: 1.0740118, z: 1.19133}
+  m_Center: {x: 0.018005371, y: 0.0370059, z: 0.01978302}
 --- !u!23 &2006132736
 MeshRenderer:
   m_ObjectHideFlags: 0

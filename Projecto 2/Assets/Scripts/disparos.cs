@@ -24,7 +24,7 @@ public class disparos : MonoBehaviour
     {
         if(Time.time >= proximoDisparo && Input.GetMouseButtonDown(0)){
             proximoDisparo = Time.time + tiempoDisparo;
-            GameObject nuevabala = Instantiate(bala, salida.position, salida.rotation);
+            GameObject nuevabala = Instantiate(bala, salida.position, salida.rotation * Quaternion.Euler(0, -90, -90));
         }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class gestorVidas : MonoBehaviour
 {
     public float vida = 5.0f;
-    public float vidaMaxima = 5.0f;
+    public float vidaMaxima = 10.0f;
 
     public UnityEvent eventoMuerte;
     public UnityEvent eventoHerida;

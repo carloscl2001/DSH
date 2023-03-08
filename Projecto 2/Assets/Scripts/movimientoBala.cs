@@ -16,7 +16,7 @@ public class movimientoBala : MonoBehaviour
     void Update()
     {
         float movimientoDistancia = velocidad * Time.deltaTime;
-        transform.Translate(Vector3.up * movimientoDistancia);
+        transform.Translate(Vector3.left * movimientoDistancia);
     }
 
     private void OnTriggerEnter(Collider other) {
