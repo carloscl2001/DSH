@@ -20,13 +20,10 @@ public class movimientoBala : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag ("Enemigo"))
-        {
+        if (other.CompareTag ("Enemigo")){
             other.SendMessage("tocado", valorHerida, SendMessageOptions.DontRequireReceiver);
             Destroy(gameObject);
         }
-        
-
     }
 }
 
